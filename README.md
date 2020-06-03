@@ -1,0 +1,1 @@
+I will be building the google homepage as my second assignment on TOD. I am slowly getting to grips with how to use GIT and GIThub.

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+
+<head class="header">
+</head>
+
+
+<body>
+<nav id = "NAV" >
+<ul id="nav"> 
+    <li id ="about"><a href="https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+    <li id="store"><a href = "https://store.google.com/GB/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB">Store</a></li>
+   <span class="nav-spacer"></span>
+    <li id="gmail"><a href ="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ftab%3Dwm%26ogbl&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</a></li>
+    <li id= "images"> <a href ="https://www.google.co.uk/imghp?hl=en&tab=wi&ogbl"> Images</a></li>
+<button id= "sign" type= "Sign">Sign in</button>
+
+</ul>
+</nav>
+
+
+
+
+<figure id= "logo"> 
+
+    <img src= "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt = "this is googles logo">
+
+    
+</figure>
+<form action="/search the web">
+<input id = "type" type= "text" placeholder="Search">
+<button id= "search" type= "submit" >Google Search </button>
+<button id= "lucky" type= "submit" >I'm Feeling Lucky </button>
+
+
+</form>
+
+
+<footer id= "footer">
+
+    <ul> 
+        <li><a href="https://ads.google.com/intl/en_uk/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+        <li><a href = "https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+        <li><a href ="https://google.com/search/howsearchworks/?fg=1">How search works</a></li>
+
+       
+        <li> <a href ="https://policies.google.com/privacy?fg=1"> Privacy</a></li>
+        <li> <a href ="https://policies.google.com/terms?fg=1"> Terms</a></li>
+        <li> <a href ="https://www.google.com/preferences?hl=en"> Settings</a></li>
+    
+    
+    </ul>
+
+
+
+
+
+
+</footer>
+
+
+
+
+
+</body>
+</html>
+
+
+<style>
+
+#sign { background-color:#4683ea;
+color: white;
+border: 1px solid #4285f4;
+border-radius: 2px;
+    
+    margin:5px 0px ;
+    font-size: 13px;
+
+
+}
+a:link{text-decoration: none;}
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+#header{display: flex;}
+
+#nav  { list-style-type: none;
+padding: 0;
+margin: 0;
+
+    
+    overflow: hidden;
+    border-top: 1px solid #e4e4e4;
+    
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    
+}
+
+
+#nav-spacer{
+ 
+    flex: 1 1 auto;
+}
+
+
+
+#nav ul,#nav li {display: inline;
+padding: 10px 132px;
+display: block;
+text-align: center;
+float: left;
+
+}
+
+
+#type{    padding: 10px;
+position: absolute;
+left: 380px;
+bottom: 350px;
+display: center;
+height: 24px;
+width: 450px;
+}
+
+#search{bottom: 280px;
+left:450px;
+position: absolute;
+height: 35px;
+width: 150px;
+background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 0px 4px;
+    padding: 0 16px;
+    cursor: pointer;}
+
+#lucky{bottom: 280px;
+left:620px;
+position: absolute;
+height: 35px;
+width: 150px;
+background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 0px 4px;
+    padding: 0 16px;
+    cursor: pointer;}
+   
+figure{
+    position: absolute;
+    left: 450px;
+top: 200px;
+
+       
+
+}
+
+#footer ul{list-style-type: none;
+background-color: rgb(243, 242, 242);
+  padding: 50px;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #e4e4e4;
+}
+
+
+#uk {
+    color: black;
+    position: absolute;
+    left: 0px;
+    bottom: 80px;
+    background-color:  rgb(243, 242, 242);
+    width: 100%;
+    padding:0; }
+
+#footer ul,
+ #footer li  {
+  margin: 0;
+ display: inline;
+padding: 10px 60px;
+left: 0px;
+display: block;
+text-align: center;
+float: left;
+
+
+}
+
+
+</style>
